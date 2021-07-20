@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: ..\..\Altium\panel_v1.1.PcbDoc
+RuleKind=Clearance|RuleName=Clearence 0.508_Polygon|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearence 0.2_NetClass|Scope=Board|Minimum=6.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

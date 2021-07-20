@@ -1,0 +1,339 @@
+*************************************************************
+FileName = panel_v1.1.GBR
+AutoAperture = True
+*************************************************************
+Generating : Dielectric 1
+      File : panel_v1.1.1
+
+    Adding Layer      : Dielectric 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : panel_v1.1.GML
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : panel_v1.1.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : panel_v1.1.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D11
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : B.Adhes
+      File : panel_v1.1.GM11
+
+    Adding Layer      : B.Adhes
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Cmts.User
+      File : panel_v1.1.GM7
+
+    Adding Layer      : Cmts.User
+
+
+Used DCodes :
+    D53
+*************************************************************
+
+*************************************************************
+Generating : F.Fab
+      File : panel_v1.1.GM6
+
+    Adding Layer      : F.Fab
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : F.CrtYd
+      File : panel_v1.1.GM4
+
+    Adding Layer      : F.CrtYd
+
+
+Used DCodes :
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Margin
+      File : panel_v1.1.GM1
+
+    Adding Layer      : Margin
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Edge.Cuts
+      File : panel_v1.1.GKO
+
+    Adding Layer      : Edge.Cuts
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : B.SilkS
+      File : panel_v1.1.GBO
+
+    Adding Layer      : B.SilkS
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : B.Paste
+      File : panel_v1.1.GBP
+
+    Adding Layer      : B.Paste
+
+    Adding Layer      : B.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : B.Mask
+      File : panel_v1.1.GBS
+
+    Adding Layer      : B.Mask
+
+    Adding Layer      : B.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : F.Mask
+      File : panel_v1.1.GTS
+
+    Adding Layer      : F.Mask
+
+    Adding Layer      : F.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : F.Paste
+      File : panel_v1.1.GTP
+
+    Adding Layer      : F.Paste
+
+    Adding Layer      : F.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+*************************************************************
+
+*************************************************************
+Generating : F.SilkS
+      File : panel_v1.1.GTO
+
+    Adding Layer      : F.SilkS
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : panel_v1.1.GPT
+
+    Adding Layer      : F.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : panel_v1.1.GPB
+
+    Adding Layer      : B.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+*************************************************************
+
+*************************************************************
+Generating : B.Cu
+      File : panel_v1.1.GBL
+
+    Adding Layer      : B.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+*************************************************************
+
+*************************************************************
+Generating : F.Cu
+      File : panel_v1.1.GTL
+
+    Adding Layer      : F.Cu
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+*************************************************************
+
