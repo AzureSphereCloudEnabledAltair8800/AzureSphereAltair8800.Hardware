@@ -19,7 +19,39 @@ The updates that we have made to the PCB include:
 
 ## Instructions
 
-Please refer to the main project [documentation](https://github.com/gloveboxes/Cloud-Enabled-Altair-on-Azure-Sphere/wiki/01-introduction) for full setup and usage instructions.
+Please refer to the main project [documentation](https://github.com/AzureSphereCloudEnabledAltair8800/AzureSphereAltair8800/wiki) for full setup and usage instructions.
+
+## Front panel wiring
+
+### Seeed Studio Azure Sphere development Kit
+
+Pin No. | Function | MT3620 Pin | MT3620 Pin Function | Description
+--------|----------|------------|---------------------|------------
+1 | Switches Load | H4/P14 | GPIO40 | Active low load switch data into shift registers
+2 | Switches Chip Select | H4/P12 | GPIO37 | Switch 'chip select' - active low enable for shift registers that read switch states
+4 | MISO | H4/P5 | MISO1 | SPI MISO
+5 | MOSI | H4/P11 | MOSI1 | SPI MOSI
+6 | MR | H4/P10 | GPIO39 | Active low master rest of shift registers that control the LEDs
+7 | CLK | H4/P7 | SCLK1 | Clock input
+8 | LED Store | H4/P8 | GPIO36 | Clocks data from the shift registers into the storage registers that control the LEDs
+9 | LED Output Enable | H4/P6 | GPIO38 | Active low output enable for the shift registers that control the LEDs
+10 | VCC | H3/P3 | 3.3 V | +3.3 V
+11 | GND | H3/P2 | GND | Ground
+
+### Avnet Azure Sphere Starter Kit Rev 1 & 2
+
+Pin No. | Function | Click Pin | MT3620 Pin Function | Description
+--------|----------|------------|---------------------|------------
+1 | Switches load | CLICK 1: AN | GPIO42 | Active low load switch data into shift registers
+2 | Switches Chip Select | CLICK 1: RST | GPIO16 | Switch 'chip select' - active low enable for shift registers that read switch states
+4 | MISO | CLICK 1: MISO | MISO1 | SPI MISO
+5 | MOSI | CLICK 1: MOSI | MOSI1 | SPI MOSI
+6 | MR | CLICK 1: PWM | GPIO0 | Active low master rest of shift registers that control the LEDs
+7 | CLK | CLICK 1: SCK | SCLK1 | Clock input
+8 | LED Store | CLICK 1: INT | GPIO2 | Clocks data from the shift registers into the storage registers that control the LEDs
+9 | LED Output Enable | CLICK 1: RX | GPIO28 | Active low output enable for the shift registers that control the LEDs
+10 | VCC | CLICK 1: 3.3 | 3.3 V | +3.3 V
+11 | GND | CLICK 1: GND | GND | Ground
 
 ## Project expectations
 
