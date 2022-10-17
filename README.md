@@ -25,7 +25,8 @@ Please refer to the main project [documentation](https://github.com/AzureSphereC
 
 ### Seeed Studio Azure Sphere development Kit
 
-Pin No. | Function | MT3620 Pin | MT3620 Pin Function | Description
+
+Altair Front Panel Pin No. | Function | MT3620 Pin | MT3620 Pin Function | Description
 --------|----------|------------|---------------------|------------
 1 | Switches Load | H4/P14 | GPIO40 | Active low load switch data into shift registers
 2 | Switches Chip Select | H4/P12 | GPIO37 | Switch 'chip select' - active low enable for shift registers that read switch states
@@ -40,7 +41,7 @@ Pin No. | Function | MT3620 Pin | MT3620 Pin Function | Description
 
 ### Avnet Azure Sphere Starter Kit Rev 1 & 2
 
-Pin No. | Function | Click Pin | MT3620 Pin Function | Description
+Altair Front Panel Pin No. | Function | Click Pin | MT3620 Pin Function | Description
 --------|----------|------------|---------------------|------------
 1 | Switches load | CLICK 1: AN | GPIO42 | Active low load switch data into shift registers
 2 | Switches Chip Select | CLICK 1: RST | GPIO16 | Switch 'chip select' - active low enable for shift registers that read switch states
@@ -52,6 +53,21 @@ Pin No. | Function | Click Pin | MT3620 Pin Function | Description
 9 | LED Output Enable | CLICK 1: RX | GPIO28 | Active low output enable for the shift registers that control the LEDs
 10 | VCC | CLICK 1: 3.3 | 3.3 V | +3.3 V
 11 | GND | CLICK 1: GND | GND | Ground
+
+### Raspberry Pi Header
+
+Altair Front Panel Pin No. | Function | Raspberry Pi Pin | Pin Function | Description
+--------|----------|------------|---------------------|------------
+1 | Switches load | 29 | GP 05 | Active low load switch data into shift registers
+2 | Switches Chip Select | 27 | GP 00 | Switch 'chip select' - active low enable for shift registers that read switch states
+4 | MISO | 21 | MISO | SPI MISO
+5 | MOSI | 19 | MOSI | SPI MOSI
+6 | MR | 15 | GP 22 | Active low master rest of shift registers that control the LEDs
+7 | CLK | 23 | CLK | Clock input
+8 | LED Store | 13 | GP 27 | Clocks data from the shift registers into the storage registers that control the LEDs
+9 | LED Output Enable | 11 | GP 17 | Active low output enable for the shift registers that control the LEDs
+10 | VCC | 17 | 3.3 V | +3.3 V
+11 | GND | 9 | GND | Ground
 
 ## Project expectations
 
